@@ -4,9 +4,12 @@
     <title>About - Anchan Thai</title>
     <link rel="stylesheet" href="restaurant.css">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
 </head>
 <body>
-    <div id="wrapper">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <div id="wrapper">
         <header>
             <img src="anchanlogo.webp" width="200" height="200" alt="Anchan Thai Logo" > 
             
@@ -22,16 +25,59 @@
                 <li><a href="jobs.html">Jobs</a></li>
             </ul>
         </nav>
-        <main>
-            <h1>About Anchan Thai</h1>
-            <p>The owner and head chef, Patchara, known as Annie to her friends, started learning to cook traditional Thai cuisine
-                more than 30 years ago from her grandmother in Loei province, in the northeast of Thailand near Wang Saphung. Before
-                leaving her home country she owned and operated her own restaurant in Khon Kaen for over 5 years.
-            
-                She also was a chef in Shanghai for four years as well as in many restaurants in Colorado in recent years. She has
-                permanently resided in Colorado since 2009. She now continues her passion for cooking in her new venture, Achan
-                Thai. Patchara has been vegetarian for most of her life and became vegan in 2015.</p>
-        </main>
+        <main> 
+          <div style="text-align: center">
+           <h1>Gallery</h1> </div> 
+              <div class="gallery-wrapper">
+                <div class="gallery-container">
+                    <article>
+                      <a data-fancybox="gallery" href="images/anchantealarge.jpg" class="image">
+                        <img src="images/anchanteathumb.jpg" alt="Anchan Tea" />
+                        <div class="caption">Anchan Tea</div>
+                      </a>
+                    </article>
+                    <article>
+                      <a data-fancybox="gallery" href="images/desert2large.jpg" class="image">
+                        <img src="images/desert2thumb.jpg" alt="Dessert" />
+                        <div class="caption">Dessert</div>
+                      </a>
+                    </article>
+                    <article>
+                      <a data-fancybox="gallery" href="images/desertlarge.jpg" class="image">
+                        <img src="images/desertthumb.jpg" alt="Dessert" />
+                        <div class="caption">Dessert</div>
+                      </a>
+                    </article>
+                    <article>
+                      <a data-fancybox="gallery" href="images/greencurryramenlarge.jpg" class="image">
+                        <img src="images/greencurryramenthumb.jpg" alt="Green Curry Ramen" />
+                        <div class="caption">Green Curry Ramen</div>
+                      </a>
+                    </article>
+                    <article>
+                      <a data-fancybox="gallery" href="images/khaosoilarge.jpg" class="image">
+                        <img src="images/khaosoithumbjpg.jpg" alt="Khao Soi" />
+                        <div class="caption">Khao Soi</div>
+                      </a>
+                    </article>
+                    <article>
+                      <a data-fancybox="gallery" href="images/mangoandstickylarge.jpg" class="image">
+                        <img src="images/mangoandstickythumb.jpg" alt="Mango with Anchan Sticky Rice" />
+                        <div class="caption">Mango with Anchan Sticky Rice</div>
+                      </a>
+                    </article>
+                    <article>
+                      <a data-fancybox="gallery" href="images/teaslarge.jpg" class="image">
+                        <img src="images/teasthumb.jpg" alt="Iced Teas" />
+                        <div class="caption">Iced Teas</div>
+                      </a>
+                    </article>
+                  
+                  
+                </div>
+              </div>
+              </main>
     </div>
+  
 </body>
 </html>

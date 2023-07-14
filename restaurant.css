@@ -1,4 +1,4 @@
-body {font-family:pacifico, cursive;
+body {font-family:pacifico, Avenir;
     background-color: #00005D;
 }
 #wrapper { background-color: #b3c7e6; 
@@ -15,7 +15,7 @@ main { display: block;
      background-color: rgb(234,234,255);
      color: #000000;
 } 
-header { background-color: rgb(228,100,221);
+header { background-color: rgb(255, 163, 241);
       color: #00005D; 
       font-size: 150%; 
       padding: 30px 10px 10px 30px;

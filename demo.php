@@ -1,24 +1,25 @@
-<?php print "<!doctype html>
-<html lang=\"en\">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Form Confirmation Page</title>
+    <meta charset="UTF-8">
+    <title>Form Submission</title>
 </head>
 <body>
-<hl >The form information received is given below:</h l >";
-$message = ";
-foreach ($_POST as $key=> $value){
-$message.= $key . " : " . $value . "<br>\r\n";
-
-print $message; 
-print "<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-< form action=\"#\">
-<input type=\"button\" value  = \"Back\" onclick=\"javascript:history.go(-1)\" />
-</form>
+    <h1>Form Submission Results</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php
+            foreach ($_POST as $field => $value) {
+                echo "<tr><td>$field</td><td>$value</td></tr>";
+            }
+            ?>
+        </tbody>
+    </table>
 </body>
-</html>"
-?>
+</html>

@@ -23,19 +23,14 @@
             </ul>
         </nav>
         <main>
-            <!-- This is a page to apply for a job.
-                Create a h1 element with text "Work With Us", on the next line is a h3 element with the text "Name"
-            below that is a text box for entering their name. Below that is an h3 element "Phone" with a text box below it
-            below that is Email with a text box below then "Position Desired" with a text box below.Then "Availability" with a 
-        text box below. Then "Job History" with a text box below it. Then below that is a place to attach a Resume with a way
-    to attach a resume as well as a place to attach a cover letter. Also include a method for verifying they are not a robot.
-All text boxed need to be centered on the page and text should be aligned to the left of the boxes.-->
+
 <div style="text-align: center">
+  <form action="demo.php" method="post">
     <h1>Work With Us</h1>
     <h3>Name:</h3>
-    <input type="text" id="name" name="name">
+    <input type="text" id="name" name="name" >
     <h3>Phone:</h3>
-    <input type="text" id="phone" name="phone">
+    <input type="text" id="phone" name="phone" >
     <h3>Email:</h3>
     <input type="text" id="email" name="email">
     <h3>Position Desired:</h3>
@@ -53,6 +48,8 @@ All text boxed need to be centered on the page and text should be aligned to the
     <br>
     <br>
     <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
 </div>
     </main>
     </div>

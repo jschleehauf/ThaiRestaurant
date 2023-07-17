@@ -125,3 +125,7 @@ nav a  { text-decoration: none;
         position: absolute;
         right: 0;
       }
+
+      caption img {
+        vertical-align: middle;
+      }
